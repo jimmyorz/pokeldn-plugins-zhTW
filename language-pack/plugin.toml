@@ -1,6 +1,6 @@
 id = "community-zh-tw"
 name = "繁體中文（台灣）"
-version = "1.1.4"
+version = "1.1.5"
 api = "1.12"
 author = "jimmyorz"
 description = "台灣繁體中文語言包，採用寶可夢官方譯名與台灣社群慣用語。"

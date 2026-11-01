@@ -794,3 +794,13 @@
 "za-online:--keys" = "Switch 的 prod.keys；預設取自 config/host.toml 或 host.local.toml 的 keys_path"
 "za-online:--our-ip" = "搭配 --ip-host 使用時，要對外公告的位址"
 "za-online:--phy" = "Linux Wi-Fi 網卡的 phy（phyN），或使用 auto；若要改用開發板，請透過 POKELDN_RADIO 指定"
+
+# ROM 傳輸選項說明
+"frlg-gift:--rom-transfer" = "將 .gba ROM 寫入主機上的 ROM 副本，再以軟重置啟動；重新啟動遊戲後便會失效（docs/rse_switch_build.md，Delivery without Atmosphere）"
+"frlg-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內附的實測資料"
+"frlg-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一"
+"frlg-gift:--rom-no-boot" = "搭配 --rom-transfer：寫入並檢查所有區塊後結束連線，不啟動寫入的 ROM"
+"rse-gift:--rom-transfer" = "將 .gba ROM 寫入主機上的 ROM 副本，再以軟重置啟動；重新啟動遊戲後便會失效（docs/rse_switch_build.md，Delivery without Atmosphere）"
+"rse-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內附的實測資料"
+"rse-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一"
+"rse-gift:--rom-no-boot" = "搭配 --rom-transfer：寫入並檢查所有區塊後結束連線，不啟動寫入的 ROM"
