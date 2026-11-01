@@ -48,3 +48,5 @@
 "No legal {term_species} in this game has no Gigantamax factor." = "本遊戲中沒有不具超極巨化因子的合法{term_species}。"
 "No legal {term_species} in this game has Dynamax level {level}." = "本遊戲中沒有極巨化等級為 {level} 的合法{term_species}。"
 "No legal {term_species} in this game has this Tera Type." = "本遊戲中沒有此太晶屬性的合法{term_species}。"
+"GO Encounter ({message_kind})" = "GO 遭遇（{message_kind}）"
+"GO Encounter ({version}) ({message_kind}): {dates}" = "GO 遭遇（{message_kind}，{version}）：{dates}"

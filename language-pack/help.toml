@@ -804,3 +804,12 @@
 "rse-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內附的實測資料"
 "rse-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一"
 "rse-gift:--rom-no-boot" = "搭配 --rom-transfer：寫入並檢查所有區塊後結束連線，不啟動寫入的 ROM"
+
+# pokeldn 0.53.0：使用頭目檔案原始資料
+"swsh-host:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
+"swsh-lair-raid-host:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
+"swsh-lan-host:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
+"swsh-lan-lair-host:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
+"swsh-lan-raid-host:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
+"swsh-online:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
+"swsh-raid-host:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"

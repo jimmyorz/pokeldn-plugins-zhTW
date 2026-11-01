@@ -6,11 +6,11 @@
 
 | 資源 | 數量與用途 |
 | --- | --- |
-| `strings.toml` | 1,873 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
-| `messages.toml` | 1,673 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
-| `help.toml` | 792 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
+| `strings.toml` | 1,874 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
+| `messages.toml` | 1,696 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
+| `help.toml` | 799 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
 | `terms.toml` | 114 個遊戲名稱、地區及社群術語 |
-| `templates.toml` | 49 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
+| `templates.toml` | 51 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
 
 英文範本中的 35 個介面鍵值刻意原樣保留，包括 pokeldn 品牌名稱、遊戲縮寫、HP、BP、GTS、GitHub、Discord、純變數排列、指令與可匯入的 Showdown 配置範例。這些並非漏譯。
 
@@ -41,7 +41,7 @@
 
 ## 目前仍會出現英文的範圍
 
-- 含預覽功能在內，上游共列出 2,885 個工具選項說明。`help.toml` 直接收錄其中 792 個；其餘 2,093 個未另設工具專用對照，部分仍可沿用 `messages.toml`，未涵蓋者主要是底層通訊、逆向分析與硬體診斷選項，會顯示英文。
+- 含預覽功能在內，上游共列出 2,892 個工具選項說明。`help.toml` 直接收錄其中 799 個；其餘 2,093 個未另設工具專用對照，部分仍可沿用 `messages.toml`，未涵蓋者主要是底層通訊、逆向分析與硬體診斷選項，會顯示英文。
 - 文件側邊欄僅翻譯遊戲主分類及其子頁面標題；其它分類、子頁面標題與文件內文保留上游英文。沒有附上整套使用文件與指南的譯本。
 - 開發板像素畫面的文字直接沿用韌體內容，未經語言包替換，仍會顯示英文；本包翻譯其設定開關與說明。
 - 檔名、原始銀行與佇列摘要、GTS 資料、設定儲存值、連線紀錄、無線通訊輸出及 `[done]` 訊息，依程式設計保留其原始資料；本包只翻譯程式開放的顯示位置。
@@ -59,8 +59,8 @@
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn commit 7902844ac33a415945d2f1b7867ad76d73306dc1`](https://github.com/Decryptu/pokeldn/tree/7902844ac33a415945d2f1b7867ad76d73306dc1)。
-- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/7902844ac33a415945d2f1b7867ad76d73306dc1/docs/plugins.md#language-packs-15)。
+- 原始碼基準：[`Decryptu/pokeldn commit 307ef126dbe6a416062ef780d46c291d800fab44`](https://github.com/Decryptu/pokeldn/tree/307ef126dbe6a416062ef780d46c291d800fab44)。
+- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/307ef126dbe6a416062ef780d46c291d800fab44/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 - 「奮鬥等級」參照 [Pokémon HOME 官方繁體中文頁面](https://www.pokemon.co.jp/ex/pokemonhome/tc/titles/legends_arceus/)。
