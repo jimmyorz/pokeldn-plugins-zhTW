@@ -399,7 +399,7 @@
 "The wild Pokemon that appears around you in the game, to battle and catch." = "在遊戲中生成於你周圍、可對戰與捕捉的野生寶可夢。"
 "The wireless channel of the network pokeldn hosts." = "pokeldn 建立網路時使用的無線頻道。"
 "Third move" = "招式 3"
-"Three of the Pokemon come 15 to 25 m around you. One you battle, or walk more than 50 m from, comes back near you." = "會有三隻寶可夢出現在你周圍 15～25 公尺處。進入對戰或走到距離牠超過 50 公尺的位置後，牠會重新出現在附近。"
+"Three of the Pokemon come 15 to 25 m around you, on ground your game's own wild Pokemon walked, and wander there; none comes in a town. One you battle, or walk more than 50 m from, comes back near you." = "會有三隻寶可夢出現在你周圍 15～25 公尺處，並在遊戲原生野生寶可夢走過的地面上四處走動；城鎮中不會出現。與其中一隻對戰，或走到距離牠超過 50 公尺的位置後，牠會重新出現在附近。"
 "Time limit (seconds)" = "時間限制（秒）"
 "Title screen: Mystery Gift, Wonder Cards, Friend. For news: the second entry, Wonder News." = "標題畫面 → 神秘禮物 → 神秘卡片 → 朋友。若要接收新聞，請選擇第二項「神秘新聞」。"
 "Trade an official Mystery Gift Pokemon to the console: a fresh legal copy, as your trainer received it." = "將官方配信寶可夢交換至主機：以你的訓練家領取時的資料，重新產生合法副本。"
@@ -1680,6 +1680,16 @@
 "MaxBattle" = "極巨對戰"
 "PremierBallBug" = "紀念球捕捉 Bug"
 "PremierBallBugMythical" = "紀念球捕捉 Bug／幻之寶可夢"
+
+# pokeldn 0.54.0：交換返還、初訓家狀態與遭遇版本名稱
+"Trade again on the console: offer any Pokemon, and the one you just sent comes back." = "請在主機上再次交換，提供任意一隻寶可夢，即可換回剛才送出的寶可夢。"
+"is no longer shiny: its encounter fixes its PID, and the PID is shiny only for its first trainer" = "不再是異色：此遭遇的 PID 固定，只有搭配原本初訓家的 ID 時才會呈現異色"
+"is shiny for you: its encounter fixes its PID" = "變為異色：此遭遇的 PID 固定"
+"kept its own PID: this event Pokemon is legal only with it" = "保留原本的 PID：這隻配信寶可夢必須使用該 PID 才算合法"
+"Let's Go Pikachu" = "Let's Go！皮卡丘"
+"Let's Go Eevee" = "Let's Go！伊布"
+"Sword" = "劍"
+"Shield" = "盾"
 
 # 文件側邊欄－遊戲標題與子頁面
 "FireRed and LeafGreen" = "火紅／葉綠"

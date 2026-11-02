@@ -813,3 +813,9 @@
 "swsh-lan-raid-host:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
 "swsh-online:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
 "swsh-raid-host:--raid-boss-as-is" = "直接使用 --raid-boss 檔案原有的等級、個體值、性格、體型與 PID，不依巢穴種子生成；主機捕捉到的寶可夢將無法通過 PKHeX 的團體戰合法性檢查（docs/swsh_raid.md，A boss a catch keeps legal）"
+
+# pokeldn 0.54.0：野生寶可夢的證章
+"sv-join:--spawn-mark" = "生成的寶可夢攜帶的證章，以 PKHeX 的 RibbonIndex 指定（53 為正午之證，97 為不振之證；預設無）"
+"sv-raid-join:--spawn-mark" = "生成的寶可夢攜帶的證章，以 PKHeX 的 RibbonIndex 指定（53 為正午之證，97 為不振之證；預設無）"
+"sv-circle-join:--spawn-mark" = "生成的寶可夢攜帶的證章，以 PKHeX 的 RibbonIndex 指定（53 為正午之證，97 為不振之證；預設無）"
+"sv-circle-encounters-join:--spawn-mark" = "生成的寶可夢攜帶的證章，以 PKHeX 的 RibbonIndex 指定（53 為正午之證，97 為不振之證；預設無）"
