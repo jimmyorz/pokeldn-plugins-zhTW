@@ -50,3 +50,6 @@
 "No legal {term_species} in this game has this Tera Type." = "本遊戲中沒有此太晶屬性的合法{term_species}。"
 "GO Encounter ({message_kind})" = "GO 遭遇（{message_kind}）"
 "GO Encounter ({version}) ({message_kind}): {dates}" = "GO 遭遇（{message_kind}，{version}）：{dates}"
+
+# pokeldn 0.56.1：無線通訊測試
+"Radio test on {device}; the board may restart." = "正在對 {device} 進行無線通訊測試；開發板可能會重新啟動。"

@@ -819,3 +819,11 @@
 "sv-raid-join:--spawn-mark" = "生成的寶可夢攜帶的證章，以 PKHeX 的 RibbonIndex 指定（53 為正午之證，97 為不振之證；預設無）"
 "sv-circle-join:--spawn-mark" = "生成的寶可夢攜帶的證章，以 PKHeX 的 RibbonIndex 指定（53 為正午之證，97 為不振之證；預設無）"
 "sv-circle-encounters-join:--spawn-mark" = "生成的寶可夢攜帶的證章，以 PKHeX 的 RibbonIndex 指定（53 為正午之證，97 為不振之證；預設無）"
+
+# pokeldn 0.56.1：交換確認訊息的定期更新
+"swsh-join:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
+"swsh-lan:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
+"swsh-raid-join:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
+"swsh-lair-raid-join:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
+"swsh-lan-raid-join:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
+"swsh-lan-lair-join:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
