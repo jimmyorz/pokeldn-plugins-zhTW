@@ -798,11 +798,11 @@
 # ROM 傳輸選項說明
 "frlg-gift:--rom-transfer" = "將 .gba ROM 寫入主機上的 ROM 副本，再以軟重置啟動；重新啟動遊戲後便會失效（docs/rse_switch_build.md，Delivery without Atmosphere）"
 "frlg-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內附的實測資料"
-"frlg-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一"
+"frlg-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一；設為 none 時，不使用卡匣 ROM 作為參照，仍以 LZMA 壓縮，傳輸量約為原本的一半"
 "frlg-gift:--rom-no-boot" = "搭配 --rom-transfer：寫入並檢查所有區塊後結束連線，不啟動寫入的 ROM"
 "rse-gift:--rom-transfer" = "將 .gba ROM 寫入主機上的 ROM 副本，再以軟重置啟動；重新啟動遊戲後便會失效（docs/rse_switch_build.md，Delivery without Atmosphere）"
 "rse-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內附的實測資料"
-"rse-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一"
+"rse-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一；設為 none 時，不使用卡匣 ROM 作為參照，仍以 LZMA 壓縮，傳輸量約為原本的一半"
 "rse-gift:--rom-no-boot" = "搭配 --rom-transfer：寫入並檢查所有區塊後結束連線，不啟動寫入的 ROM"
 
 # pokeldn 0.53.0：使用頭目檔案原始資料
@@ -827,3 +827,22 @@
 "swsh-lair-raid-join:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
 "swsh-lan-raid-join:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
 "swsh-lan-lair-join:--ladder-refresh" = "交換確認流程等待主機回應時，每隔 SECONDS 秒重新傳送 pokeldn 成對的 40040 訊息，並將訊息中的時脈推進至目前時間；設為 0 可停用"
+
+# pokeldn 0.57.0：綠寶石存檔、大廳場景與朱紫紀錄集
+"frlg-gift:--save-restore-emerald" = "將綠寶石的 .sav 檔案寫入主機最新存檔旁的另一個存檔區，供之後傳輸綠寶石 ROM 使用，寫入後即停止；目前執行的遊戲會保留自己的存檔（docs/rse_switch_build.md，Delivery without Atmosphere）"
+"rse-gift:--save-restore-emerald" = "將綠寶石的 .sav 檔案寫入主機最新存檔旁的另一個存檔區，供之後傳輸綠寶石 ROM 使用，寫入後即停止；目前執行的遊戲會保留自己的存檔（docs/rse_switch_build.md，Delivery without Atmosphere）"
+"swsh-host:--lair-scene" = "大廳的 LDN 場景 ID；預設掃描並使用主機大廳的場景 ID，找不到時使用 50000（docs/swsh_raid.md）"
+"swsh-online:--lair-scene" = "大廳的 LDN 場景 ID；預設掃描並使用主機大廳的場景 ID，找不到時使用 50000（docs/swsh_raid.md）"
+"swsh-lan-host:--lair-scene" = "大廳的 LDN 場景 ID；預設掃描並使用主機大廳的場景 ID，找不到時使用 50000（docs/swsh_raid.md）"
+"swsh-raid-host:--lair-scene" = "大廳的 LDN 場景 ID；預設掃描並使用主機大廳的場景 ID，找不到時使用 50000（docs/swsh_raid.md）"
+"swsh-lair-raid-host:--lair-scene" = "大廳的 LDN 場景 ID；預設掃描並使用主機大廳的場景 ID，找不到時使用 50000（docs/swsh_raid.md）"
+"swsh-lan-raid-host:--lair-scene" = "大廳的 LDN 場景 ID；預設掃描並使用主機大廳的場景 ID，找不到時使用 50000（docs/swsh_raid.md）"
+"swsh-lan-lair-host:--lair-scene" = "大廳的 LDN 場景 ID；預設掃描並使用主機大廳的場景 ID，找不到時使用 50000（docs/swsh_raid.md）"
+"sv-host:--record-set" = "包含 NNN.bin 紀錄的資料夾；將這些紀錄透過 0x81 的連接埠 0 傳送，作為 pokeldn 開房端的身分資料，與配對中的開房端傳送 46 筆紀錄的方式相同。第一筆包含 INITIALIZED，所有紀錄皆已使用 zlib 壓縮；預設使用 pokeldn.sv.reference 中的紀錄集"
+"sv-join:--record-set" = "依序將此資料夾的紀錄透過 0x81 的連接埠 1 傳送，作為 pokeldn 加入端的身分資料，取代 --mirror-records。這樣可重播完整的實際身分資料，而非將開房端的資料原樣傳回；預設使用 pokeldn.sv.reference 中的紀錄集"
+"sv-online:--record-set" = "包含 NNN.bin 紀錄的資料夾；將這些紀錄透過 0x81 的連接埠 0 傳送，作為 pokeldn 開房端的身分資料，與配對中的開房端傳送 46 筆紀錄的方式相同。第一筆包含 INITIALIZED，所有紀錄皆已使用 zlib 壓縮；預設使用 pokeldn.sv.reference 中的紀錄集"
+"sv-gift-host:--record-set" = "包含 NNN.bin 紀錄的資料夾；將這些紀錄透過 0x81 的連接埠 0 傳送，作為 pokeldn 開房端的身分資料，與配對中的開房端傳送 46 筆紀錄的方式相同。第一筆包含 INITIALIZED，所有紀錄皆已使用 zlib 壓縮；預設使用 pokeldn.sv.reference 中的紀錄集"
+"sv-raid-host:--record-set" = "包含 NNN.bin 紀錄的資料夾；將這些紀錄透過 0x81 的連接埠 0 傳送，作為 pokeldn 開房端的身分資料，與配對中的開房端傳送 46 筆紀錄的方式相同。第一筆包含 INITIALIZED，所有紀錄皆已使用 zlib 壓縮；預設使用 pokeldn.sv.reference 中的紀錄集"
+"sv-raid-join:--record-set" = "依序將此資料夾的紀錄透過 0x81 的連接埠 1 傳送，作為 pokeldn 加入端的身分資料，取代 --mirror-records。這樣可重播完整的實際身分資料，而非將開房端的資料原樣傳回；預設使用 pokeldn.sv.reference 中的紀錄集"
+"sv-circle-join:--record-set" = "依序將此資料夾的紀錄透過 0x81 的連接埠 1 傳送，作為 pokeldn 加入端的身分資料，取代 --mirror-records。這樣可重播完整的實際身分資料，而非將開房端的資料原樣傳回；預設使用 pokeldn.sv.reference 中的紀錄集"
+"sv-circle-encounters-join:--record-set" = "依序將此資料夾的紀錄透過 0x81 的連接埠 1 傳送，作為 pokeldn 加入端的身分資料，取代 --mirror-records。這樣可重播完整的實際身分資料，而非將開房端的資料原樣傳回；預設使用 pokeldn.sv.reference 中的紀錄集"

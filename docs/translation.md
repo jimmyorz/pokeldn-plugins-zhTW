@@ -8,7 +8,7 @@
 | --- | --- |
 | `strings.toml` | 1,896 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
 | `messages.toml` | 1,704 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
-| `help.toml` | 809 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
+| `help.toml` | 826 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
 | `terms.toml` | 114 個遊戲名稱、地區及社群術語 |
 | `templates.toml` | 52 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
 
@@ -41,10 +41,11 @@
 
 ## 目前仍會出現英文的範圍
 
-- 含預覽功能在內，上游共列出 2,902 個工具選項說明。`help.toml` 直接收錄其中 809 個；其餘 2,093 個未另設工具專用對照，部分仍可沿用 `messages.toml`，未涵蓋者主要是底層通訊、逆向分析與硬體診斷選項，會顯示英文。
+- 含預覽功能在內，上游共列出 2,911 個工具選項說明。`help.toml` 直接收錄其中 826 個；其餘 2,085 個未另設工具專用對照，部分仍可沿用 `messages.toml`，未涵蓋者主要是底層通訊、逆向分析與硬體診斷選項，會顯示英文。
 - 文件側邊欄僅翻譯遊戲主分類及其子頁面標題；其它分類、子頁面標題與文件內文保留上游英文。沒有附上整套使用文件與指南的譯本。
 - 開發板像素畫面的文字直接沿用韌體內容，未經語言包替換，仍會顯示英文；本包翻譯其設定開關與說明。
 - 無線通訊測試的操作說明與開始提示已翻譯；`[radio test]` 結果由上游直接輸出，仍會顯示英文。
+- ROM 寫入進度標題及傳至遊戲內的綠寶石存檔完成訊息未經語言包替換，仍會顯示英文。
 - 檔名、原始銀行與佇列摘要、GTS 資料、設定儲存值、連線紀錄、無線通訊輸出及 `[done]` 訊息，依程式設計保留其原始資料；本包只翻譯程式開放的顯示位置。
 - 金鑰檢查與設定重設提示中的金鑰名稱、設定欄位名稱、檔案路徑及作業系統錯誤內容保留原文；外層說明已翻譯。
 - 部分遭遇類型細節仍保留原文；配信卡片標題沿用 PKHeX 資料，可能仍為英文。
@@ -59,8 +60,8 @@
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn commit 70dfee44644808eb61932e75b4e02d9f7669e0c9`](https://github.com/Decryptu/pokeldn/tree/70dfee44644808eb61932e75b4e02d9f7669e0c9)。
-- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/70dfee44644808eb61932e75b4e02d9f7669e0c9/docs/plugins.md#language-packs-15)。
+- 原始碼基準：[`Decryptu/pokeldn commit 77eb90d392736ca506e3c95183786a6c5f551b5b`](https://github.com/Decryptu/pokeldn/tree/77eb90d392736ca506e3c95183786a6c5f551b5b)。
+- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/77eb90d392736ca506e3c95183786a6c5f551b5b/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 - 「奮鬥等級」參照 [Pokémon HOME 官方繁體中文頁面](https://www.pokemon.co.jp/ex/pokemonhome/tc/titles/legends_arceus/)。
