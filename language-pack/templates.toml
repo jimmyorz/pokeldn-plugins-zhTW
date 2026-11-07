@@ -53,3 +53,4 @@
 
 # pokeldn 0.56.1：無線通訊測試
 "Radio test on {device}; the board may restart." = "正在對 {device} 進行無線通訊測試；開發板可能會重新啟動。"
+"PKHeX has no record to start {term_species} from." = "PKHeX 沒有可用來建立{term_species}的基礎資料。"

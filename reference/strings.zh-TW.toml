@@ -1774,6 +1774,8 @@
 "settings.921600_default_1702d5" = "921600（預設）"
 "settings.about_pokeldn_7bfa4b" = "關於 pokeldn {value0}"
 "settings.adds_the_board_s_counters_and_every_serial_message_to_t_615de0" = "將開發板計數器與所有序列通訊訊息加入連線紀錄。僅在他人要求回報無線通訊問題時使用。"
+"settings.allow_illegal" = "允許不合法的寶可夢"
+"settings.allow_illegal_detail" = "允許建立、匯入、保存及交換被 PKHeX 判定為不合法的寶可夢，可自由設定等級、招式、特性、精靈球與是否為異色。若找不到符合條件的合法寶可夢，建立工具仍會依設定產生，並標記為「不合法」。資料有問題的寶可夢可能在對方遊戲顯示時導致當機，請先備份存檔。GTS 仍只接受合法的寶可夢。"
 "settings.app_language_b8352b" = "App 語言"
 "settings.asks_github_for_a_newer_pokeldn_when_the_app_starts_and_b07880" = "App 啟動時會向 GitHub 檢查 pokeldn 更新，並向各外掛指定的網址檢查更新。不會傳送你的個人或遊戲資料。"
 "settings.automatic_default" = "自動（預設）"

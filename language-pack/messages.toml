@@ -1691,6 +1691,9 @@
 "Sword" = "劍"
 "Shield" = "盾"
 
+"Allow non-legal Pokemon" = "允許不合法的寶可夢"
+"Build, import, keep and trade Pokemon PKHeX finds illegal: any level, moves, ability, ball or shininess. When no legal Pokemon has what you asked for, the builder makes it anyway and marks it Not legal. A broken Pokemon can crash the other game when it is drawn, so back your save up. The GTS still takes legal Pokemon only." = "允許建立、匯入、保存及交換被 PKHeX 判定為不合法的寶可夢，可自由設定等級、招式、特性、精靈球與是否為異色。若找不到符合條件的合法寶可夢，建立工具仍會依設定產生，並標記為「不合法」。資料有問題的寶可夢可能在對方遊戲顯示時導致當機，請先備份存檔。GTS 仍只接受合法的寶可夢。"
+
 # 文件側邊欄－遊戲標題與子頁面
 "FireRed and LeafGreen" = "火紅／葉綠"
 "The link protocol" = "連線通訊協定"
