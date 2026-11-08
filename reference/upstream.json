@@ -8,8 +8,8 @@
   "english_source_path": "pokeldn/app/data/strings.en.toml",
   "english_git_blob_sha": "6257a0f272b2c10168121ed05737d86bc8e63026",
   "english_sha256": "ded78c49ad20c76c5d4b7c839577001a7dee5079ec034694600b3d8b2cb4f561",
-  "chinese_sha256": "686187ae53f20b21a955c3f87eea0fbb816d56a9f384fe6f2eb02cf5341ac86a",
-  "package_version": "1.1.11",
-  "package_sha256": "54a6f2bb87a21c01bfafbe1f8cd7df34afccd99bb979abc2c596da89ee294adb",
+  "chinese_sha256": "1bb02c1eefd6e60b6a816e4c87cdec422415bf3b1b674b7e61d3a90439de8d98",
+  "package_version": "1.1.12",
+  "package_sha256": "a1f1dd8d525905f4669388370f4223e94e580b0d76e6b2636fc3649b93e98707",
   "main_strings": 1907
 }
