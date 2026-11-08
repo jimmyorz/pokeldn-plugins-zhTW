@@ -54,3 +54,18 @@
 # pokeldn 0.56.1：無線通訊測試
 "Radio test on {device}; the board may restart." = "正在對 {device} 進行無線通訊測試；開發板可能會重新啟動。"
 "PKHeX has no record to start {term_species} from." = "PKHeX 沒有可用來建立{term_species}的基礎資料。"
+
+"A ribbon is 0 to {maximum}." = "獎章編號範圍為 0～{maximum}。"
+"A card carries {count} ribbons at most." = "一張卡片最多可包含 {count} 個獎章。"
+"With the {ribbons} ribbon" = "附有獎章：{ribbons}"
+"With the {ribbons} ribbons" = "附有獎章：{ribbons}"
+"{term_species} Gift" = "{term_species}禮物"
+"Mythical Pokémon {term_species} Gift" = "幻之寶可夢{term_species}禮物"
+"{trainer}’s {term_species} Gift" = "{trainer}的{term_species}禮物"
+"Shiny {term_species} Gift" = "異色{term_species}禮物"
+"{term_species} ({form}) Gift" = "{term_species}（{form}）禮物"
+"Hidden Ability {term_species} Gift" = "隱藏特性的{term_species}禮物"
+"{term_species} with {term_move} Gift" = "學會{term_move}的{term_species}禮物"
+"Gigantamax {term_species} Gift" = "可超極巨化的{term_species}禮物"
+"{term_species} and {term_item} Gift" = "{term_species}與{term_item}禮物"
+"{term_type} Tera Type {term_species} Gift" = "{term_type}太晶屬性的{term_species}禮物"

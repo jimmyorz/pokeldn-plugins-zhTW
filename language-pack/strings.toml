@@ -1896,3 +1896,13 @@
 "widgets.choose_folder" = "選擇資料夾"
 "widgets.copy_code_49a005" = "複製程式碼"
 "widgets.loading_dc3808" = "正在載入"
+
+"gifts.add_a_ribbon" = "新增獎章"
+"gifts.remove_ribbon" = "移除"
+"gifts.ribbons" = "獎章"
+"gifts.ribbons_help" = "這隻寶可夢在領取時會帶有這些獎章。"
+"pokemon.converted_note" = "已依 HOME 的轉移方式，從 {value0} 格式轉換。"
+"pokemon.duplicate" = "複製為另一筆交換"
+"pokemon.queue_full" = "每次連線最多可交換 {value0} 隻寶可夢。"
+"settings.bank_illegal" = "將不合法的寶可夢匯入銀行"
+"settings.bank_illegal_detail" = "匯入寶可夢檔案或遊戲存檔至銀行時，保留被 PKHeX 判定為不合法的寶可夢，並標記為「不合法」。將其轉移至遊戲或用於交換，仍須啟用「允許不合法的寶可夢」。GTS 只接受合法的寶可夢。"
