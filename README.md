@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/refs/heads/main/
 
 無須設定來源，直接下載套件即可安裝；後續更新可自行下載新版套件再安裝。
 
-**[下載最新 pokeldn 繁體中文（台灣）語言包](https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/main/packages/pokeldn-zh-TW-1.1.13.pokeplugin)**
+**[下載最新 pokeldn 繁體中文（台灣）語言包](https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/main/packages/pokeldn-zh-TW-1.1.14.pokeplugin)**
 
 下載後，開啟 **Plugins → Add a plugin**，選擇下載的 `.pokeplugin`，依畫面提示完成安裝。
 
@@ -49,13 +49,13 @@ https://raw.githubusercontent.com/jimmyorz/pokeldn-plugins-zhTW/refs/heads/main/
 
 | 項目 | 內容 |
 | --- | --- |
-| 目前翻譯對應版本 | pokeldn **0.61.0** |
-| 語言包版本 | `1.1.13` |
+| 目前翻譯對應版本 | pokeldn **0.62.1** |
+| 語言包版本 | `1.1.14` |
 | 語系 | `zh-TW` |
 | Plugins ID | `community-zh-tw` |
 | Plugins API | `1.13` |
 | Plugins 簽章指紋 | `ZP2X-THRM-26HS-XL2C` |
-| 更新日期 | **2026-11-09** |
+| 更新日期 | **2026-11-10** |
 
 本版需使用 pokeldn **0.57.0 或以上**（支援 Plugins API 1.13）。
 

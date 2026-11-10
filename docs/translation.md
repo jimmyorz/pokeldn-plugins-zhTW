@@ -62,8 +62,8 @@
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn commit a4fc5987599c0ebfac00c28caadd5047d6e4d584`](https://github.com/Decryptu/pokeldn/tree/a4fc5987599c0ebfac00c28caadd5047d6e4d584)。
-- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/a4fc5987599c0ebfac00c28caadd5047d6e4d584/docs/plugins.md#language-packs-15)。
+- 原始碼基準：[`Decryptu/pokeldn commit 7c56af641c9ae87c0925798bf6f162747892e1ab`](https://github.com/Decryptu/pokeldn/tree/7c56af641c9ae87c0925798bf6f162747892e1ab)。
+- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/7c56af641c9ae87c0925798bf6f162747892e1ab/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 - 「奮鬥等級」參照 [Pokémon HOME 官方繁體中文頁面](https://www.pokemon.co.jp/ex/pokemonhome/tc/titles/legends_arceus/)。

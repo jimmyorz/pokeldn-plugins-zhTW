@@ -797,11 +797,11 @@
 
 # ROM 傳輸選項說明
 "frlg-gift:--rom-transfer" = "將 .gba ROM 寫入主機上的 ROM 副本，再以軟重置啟動；重新啟動遊戲後便會失效（docs/rse_switch_build.md，Delivery without Atmosphere）"
-"frlg-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內附的實測資料"
+"frlg-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內建的區塊資料"
 "frlg-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一；設為 none 時，不使用卡匣 ROM 作為參照，仍以 LZMA 壓縮，傳輸量約為原本的一半"
 "frlg-gift:--rom-no-boot" = "搭配 --rom-transfer：寫入並檢查所有區塊後結束連線，不啟動寫入的 ROM"
 "rse-gift:--rom-transfer" = "將 .gba ROM 寫入主機上的 ROM 副本，再以軟重置啟動；重新啟動遊戲後便會失效（docs/rse_switch_build.md，Delivery without Atmosphere）"
-"rse-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內附的實測資料"
+"rse-gift:--rom-live" = "搭配 --rom-transfer：以 JSON 檔指定主機維持連線所需的 ROM 區塊（格式為 {game code: [block, ...]}），取代程式內建的區塊資料"
 "rse-gift:--rom-base" = "搭配 --rom-transfer：指定主機目前遊戲的卡匣 ROM（取自 RomFS）；以主機上的 ROM 副本為參照，改用 LZMA 傳輸，傳輸量約為原本的三分之一；設為 none 時，不使用卡匣 ROM 作為參照，仍以 LZMA 壓縮，傳輸量約為原本的一半"
 "rse-gift:--rom-no-boot" = "搭配 --rom-transfer：寫入並檢查所有區塊後結束連線，不啟動寫入的 ROM"
 
