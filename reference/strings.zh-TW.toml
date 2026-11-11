@@ -1937,3 +1937,8 @@
 "settings.backup_restored" = "已還原 {value0} 個檔案。請重新啟動 pokeldn，以套用還原的設定。"
 "settings.backup_restoring" = "正在還原…"
 "settings.cancel" = "取消"
+
+"settings.advanced_section" = "進階設定"
+"settings.app_section" = "應用程式"
+"settings.no_setting_matches" = "找不到符合的設定。"
+"settings.search_the_settings" = "搜尋設定"
