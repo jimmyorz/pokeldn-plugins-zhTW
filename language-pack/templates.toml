@@ -55,6 +55,7 @@
 "Radio test on {device}; the board may restart." = "正在對 {device} 進行無線通訊測試；開發板可能會重新啟動。"
 "PKHeX has no record to start {term_species} from." = "PKHeX 沒有可用來建立{term_species}的基礎資料。"
 
+"This Pokemon has no ribbon {ribbon}." = "這隻寶可夢不支援獎章 {ribbon}。"
 "A ribbon is 0 to {maximum}." = "獎章編號範圍為 0-{maximum}。"
 "A card carries {count} ribbons at most." = "一張卡片最多可包含 {count} 個獎章。"
 "With the {ribbons} ribbon" = "附有獎章：{ribbons}"

@@ -1701,6 +1701,10 @@
 
 "Add a ribbon" = "新增獎章"
 "Ribbons" = "獎章"
+"PKHeX allows no ribbon on this Pokemon." = "PKHeX 判定這隻寶可夢無法佩戴任何獎章。"
+"Reading ribbons" = "正在讀取獎章"
+"its encounter gives it" = "由遭遇資料附帶，無法移除"
+"{value0} worn" = "已佩戴 {value0} 個"
 "The Pokemon arrives wearing these." = "這隻寶可夢在領取時會帶有這些獎章。"
 "Converted from {value0} as HOME would move it." = "已依 HOME 的轉移方式，從 {value0} 格式轉換。"
 "Duplicate as a new trade" = "複製為另一筆交換"
