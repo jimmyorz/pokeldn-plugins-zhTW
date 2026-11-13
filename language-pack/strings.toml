@@ -61,6 +61,7 @@
 "bank.dex_no_shiny" = "尚無異色個體"
 "bank.done_selecting" = "完成"
 "bank.drop_a_file_here" = " 將寶可夢檔案、遊戲存檔或 PKSM 銀行檔拖曳至此，即可匯入其中的寶可夢。"
+"bank.duplicate" = "複製"
 "bank.edit_44b87f" = "編輯{value0}"
 "bank.edit_464c4f" = "編輯"
 "bank.evs" = "努力值"

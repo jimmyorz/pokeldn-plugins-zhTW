@@ -1707,6 +1707,7 @@
 "{value0} worn" = "已佩戴 {value0} 個"
 "The Pokemon arrives wearing these." = "這隻寶可夢在領取時會帶有這些獎章。"
 "Converted from {value0} as HOME would move it." = "已依 HOME 的轉移方式，從 {value0} 格式轉換。"
+"Duplicate" = "複製"
 "Duplicate as a new trade" = "複製為另一筆交換"
 "One session trades at most {value0}." = "每次連線最多可交換 {value0} 隻寶可夢。"
 "Import non-legal Pokemon into the bank" = "將不合法的寶可夢匯入銀行"
