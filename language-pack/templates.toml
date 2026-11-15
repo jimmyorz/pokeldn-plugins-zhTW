@@ -70,3 +70,5 @@
 "Gigantamax {term_species} Gift" = "可超極巨化的{term_species}禮物"
 "{term_species} and {term_item} Gift" = "{term_species}與{term_item}禮物"
 "{term_type} Tera Type {term_species} Gift" = "{term_type}太晶屬性的{term_species}禮物"
+
+"The write stopped ({error}); trying again." = "燒錄中斷（{error}）；正在重試。"

@@ -1763,6 +1763,14 @@
 "write the Pokemon the console traded in trade N to PREFIX_N.pb8, once the trade completes" = "第 N 次交換完成後，將主機換出的寶可夢寫入 PREFIX_N.pb8。"
 "write the PK8 the console traded to this file, once the trade completes; trade N > 1 writes FILE-N" = "交換完成後，將主機換出的寶可夢 PK8 資料寫入此檔案；第 N 次交換（N > 1）寫入 FILE-N。"
 
+"Import again" = "重新匯入"
+"Imported before" = "曾匯入"
+"Traded or removed since" = "已交換或移除"
+"Everything you set in {value0} goes back to how it was the first time. Files you saved, your bank and your settings stay." = "「{value0}」的選項將恢復為初次使用時的預設值。已儲存的檔案、銀行內的寶可夢及其他設定都會保留。"
+"Start over" = "重設工具"
+"Start over?" = "要重設這個工具嗎？"
+"Start over: forget what this tool remembers" = "重設工具：清除這個工具記住的選項"
+"The board's flasher stub did not start; writing through its ROM loader instead (slower)." = "開發板的燒錄輔助程式未能啟動，已改用 ROM 載入程式燒錄（速度較慢）。"
 # 文件側邊欄－遊戲標題與子頁面
 "FireRed and LeafGreen" = "火紅／葉綠"
 "The link protocol" = "連線通訊協定"
