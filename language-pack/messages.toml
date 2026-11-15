@@ -165,7 +165,7 @@
 "Update" = "更新"
 "Update required" = "需要更新"
 "USB to this computer, as a controller; Bluetooth to this app" = "透過 USB 連接這台電腦以作為控制器；透過藍牙連接此 App"
-"Use a classic ESP32 (ESP32-D0WD, WROOM-32E), or an ESP32-S3, C3 or C6 through its native USB port, the one marked USB. S2 boards are not supported." = "請使用經典款 ESP32（ESP32-D0WD、WROOM-32E），或透過標示為 USB 的原生 USB 連接埠使用 ESP32-S3、C3 或 C6。不支援 S2 開發板。"
+"Use a classic ESP32 (ESP32-D0WD, WROOM-32E), or connect an ESP32-S2, S3, C3 or C6 through its native USB port. ESP32-S2 support is experimental." = "請使用經典款 ESP32（ESP32-D0WD、WROOM-32E），或透過原生 USB 連接埠連接 ESP32-S2、S3、C3 或 C6。ESP32-S2 目前僅提供實驗性支援。"
 "Use for trades" = "用於交換"
 "Version unknown" = "版本未知"
 "Waiting for the board to restart..." = "正在等待開發板重新啟動⋯"
@@ -1656,6 +1656,7 @@
 # pokeldn 0.49.0：建立器選項與各遊戲訓練家資料
 "Unknown sweet." = "未知的糖飾。"
 "The Dynamax level is 0 to 10." = "極巨化等級須介於 0-10。"
+"The size is 0 to 255." = "體型大小須介於 0-255。"
 "Unknown Tera Type." = "未知的太晶屬性。"
 "This Pokemon cannot Gigantamax in this game." = "這隻寶可夢在本遊戲中無法超極巨化。"
 "The Dynamax level is not set." = "未設定極巨化等級。"

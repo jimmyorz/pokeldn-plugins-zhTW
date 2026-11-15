@@ -47,6 +47,7 @@
 "No legal {term_species} in this game has the Gigantamax factor." = "本遊戲中沒有具有超極巨化因子的合法{term_species}。"
 "No legal {term_species} in this game has no Gigantamax factor." = "本遊戲中沒有不具超極巨化因子的合法{term_species}。"
 "No legal {term_species} in this game has Dynamax level {level}." = "本遊戲中沒有極巨化等級為 {level} 的合法{term_species}。"
+"No legal {term_species} in this game has size {size}." = "本遊戲中沒有體型大小為 {size} 的合法{term_species}。"
 "No legal {term_species} in this game has this Tera Type." = "本遊戲中沒有此太晶屬性的合法{term_species}。"
 "GO Encounter ({message_kind})" = "GO 遭遇（{message_kind}）"
 "GO Encounter ({version}) ({message_kind}): {dates}" = "GO 遭遇（{message_kind}，{version}）：{dates}"
@@ -72,3 +73,4 @@
 "{term_type} Tera Type {term_species} Gift" = "{term_type}太晶屬性的{term_species}禮物"
 
 "The write stopped ({error}); trying again." = "燒錄中斷（{error}）；正在重試。"
+"{device} is an ESP32-S2 in download mode." = "{device}：ESP32-S2 目前處於下載模式。"
