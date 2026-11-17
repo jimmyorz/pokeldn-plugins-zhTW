@@ -1772,6 +1772,13 @@
 "Start over?" = "要重設這個工具嗎？"
 "Start over: forget what this tool remembers" = "重設工具：清除這個工具記住的選項"
 "The board's flasher stub did not start; writing through its ROM loader instead (slower)." = "開發板的燒錄輔助程式未能啟動，已改用 ROM 載入程式燒錄（速度較慢）。"
+"Nothing here yet. Add a file." = "這裡還沒有內容。請新增檔案。"
+"Nothing here yet. Add a file or drop it here." = "這裡還沒有內容。請新增檔案，或將檔案拖曳至此。"
+"Default" = "預設"
+"Drop a Pokemon file or a Showdown paste" = "將寶可夢檔案或 Showdown 配置拖曳至此"
+"Left off, PKHeX refuses them on this Pokemon: {value0}" = "PKHeX 判定這隻寶可夢無法佩戴以下獎章，已略過：{value0}"
+"Ribbons: {value0}" = "已佩戴的獎章：{value0}"
+
 # 文件側邊欄－遊戲標題與子頁面
 "FireRed and LeafGreen" = "火紅／葉綠"
 "The link protocol" = "連線通訊協定"
