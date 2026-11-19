@@ -1779,6 +1779,12 @@
 "Left off, PKHeX refuses them on this Pokemon: {value0}" = "PKHeX 判定這隻寶可夢無法佩戴以下獎章，已略過：{value0}"
 "Ribbons: {value0}" = "已佩戴的獎章：{value0}"
 
+"A type" = "選擇屬性"
+"{value0} of the ten encounters, {value1} of the three rentals." = "10 次遭遇中有 {value0} 次符合條件；3 隻租借寶可夢中有 {value1} 隻為所選屬性。"
+"Encounters of this type" = "遭遇此屬性的寶可夢"
+"Encounters weak to this type" = "遭遇弱點為此屬性的寶可夢"
+"Search by type" = "依屬性搜尋"
+
 # 文件側邊欄－遊戲標題與子頁面
 "FireRed and LeafGreen" = "火紅／葉綠"
 "The link protocol" = "連線通訊協定"
