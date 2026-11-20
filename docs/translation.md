@@ -6,11 +6,11 @@
 
 | 資源 | 數量與用途 |
 | --- | --- |
-| `strings.toml` | 1,954 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
-| `messages.toml` | 1,793 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
+| `strings.toml` | 1,956 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
+| `messages.toml` | 1,795 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
 | `help.toml` | 879 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
 | `terms.toml` | 114 個遊戲名稱、地區及社群術語 |
-| `templates.toml` | 71 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
+| `templates.toml` | 72 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
 
 英文範本中的 35 個介面鍵值刻意原樣保留，包括 pokeldn 品牌名稱、遊戲縮寫、HP、BP、GTS、GitHub、Discord、純變數排列、指令與可匯入的 Showdown 配置範例。這些並非漏譯。
 
@@ -62,8 +62,8 @@
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn commit 12e042a2e60187279402d7ecea03a486a46573d4`](https://github.com/Decryptu/pokeldn/tree/12e042a2e60187279402d7ecea03a486a46573d4)。
-- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/12e042a2e60187279402d7ecea03a486a46573d4/docs/plugins.md#language-packs-15)。
+- 原始碼基準：[`Decryptu/pokeldn commit bf8888ac3ccddcda62960f156dac35a58e23431d`](https://github.com/Decryptu/pokeldn/tree/bf8888ac3ccddcda62960f156dac35a58e23431d)。
+- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/bf8888ac3ccddcda62960f156dac35a58e23431d/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 - 「奮鬥等級」參照 [Pokémon HOME 官方繁體中文頁面](https://www.pokemon.co.jp/ex/pokemonhome/tc/titles/legends_arceus/)。

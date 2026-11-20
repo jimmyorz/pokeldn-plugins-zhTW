@@ -30,6 +30,7 @@
 "Unknown gift kind {kind}." = "未知的禮物類型 {kind}。"
 "Unknown outfit {outfit}." = "未知的服裝 {outfit}。"
 "PKHeX finds {pokemon} in this save's party not legal. Fix it in the editor, or turn on Restore anyway." = "PKHeX 判定此存檔同行寶可夢中的{pokemon}不合法。請在編輯器修正，或啟用「仍要還原」。"
+"Checking {device}; the board may restart." = "正在檢查 {device}；開發板可能會重新啟動。"
 "Gathering board details for {device}; the board may restart." = "正在收集 {device} 的開發板資訊；開發板可能會重新啟動。"
 "Board details copied: paste them into your message. A copy is in {path}." = "已複製開發板資訊，請貼到你的訊息中。另已儲存一份副本至 {path}。"
 "Could not gather board details: {reason}" = "無法收集開發板資訊：{reason}"
