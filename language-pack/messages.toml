@@ -1787,6 +1787,12 @@
 "Encounters weak to this type" = "遭遇弱點為此屬性的寶可夢"
 "Search by type" = "依屬性搜尋"
 
+"The radio is set to USB Wi-Fi (ldnrs), but its program is not running. With an ESP32 board, pick The board under Plugins, Radio." = "無線通訊裝置已設為 USB Wi-Fi（ldnrs），但背景服務未執行。若使用 ESP32 開發板，請在「外掛」的「無線通訊裝置」中選擇「開發板（預設）」。"
+"A board is plugged in: use it instead." = "已接上開發板，可以改用開發板。"
+"The radio is set to USB Wi-Fi (ldnrs), which is not running" = "無線通訊裝置已設為 USB Wi-Fi（ldnrs），但背景服務未執行"
+"Start the ldnrs daemon after its adapter wizard, or use an ESP32 board." = "請完成網卡設定精靈後啟動 ldnrs 背景服務，或改用 ESP32 開發板。"
+"Use the board" = "改用開發板"
+
 # 文件側邊欄－遊戲標題與子頁面
 "FireRed and LeafGreen" = "火紅／葉綠"
 "The link protocol" = "連線通訊協定"
