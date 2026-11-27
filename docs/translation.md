@@ -6,11 +6,11 @@
 
 | 資源 | 數量與用途 |
 | --- | --- |
-| `strings.toml` | 1,961 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
-| `messages.toml` | 1,800 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
-| `help.toml` | 879 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
+| `strings.toml` | 1,969 個介面鍵值，涵蓋英文範本的所有鍵；無缺漏或多餘鍵值 |
+| `messages.toml` | 1,840 筆原文對照，包含介面原文、神秘禮物預設內容、遊戲強化說明、常見錯誤與遊戲文件側邊欄標題；部分與主字串表重疊 |
+| `help.toml` | 876 個工具與選項的說明，涵蓋常用交換、配信、團體戰、集友圈與連線設定 |
 | `terms.toml` | 114 個遊戲名稱、地區及社群術語 |
-| `templates.toml` | 72 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作與開發板訊息 |
+| `templates.toml` | 79 個動態訊息範本，用於禮物效果、欄位錯誤、檔案操作、開發板訊息與交換提示 |
 
 英文範本中的 35 個介面鍵值刻意原樣保留，包括 pokeldn 品牌名稱、遊戲縮寫、HP、BP、GTS、GitHub、Discord、純變數排列、指令與可匯入的 Showdown 配置範例。這些並非漏譯。
 
@@ -43,7 +43,7 @@
 
 ## 目前仍會出現英文的範圍
 
-- 含預覽功能在內，上游共列出 2,950 個工具選項說明。`help.toml` 直接收錄其中 879 個；其餘 2,071 個未另設工具專用對照，部分仍可沿用 `messages.toml`，未涵蓋者主要是底層通訊、逆向分析與硬體診斷選項，會顯示英文。
+- 含預覽功能在內，上游共列出 2,987 個工具選項說明。`help.toml` 直接收錄其中 876 個；其餘 2,111 個未另設工具專用對照，部分仍可沿用 `messages.toml`，未涵蓋者主要是底層通訊、逆向分析與硬體診斷選項，會顯示英文。
 - 文件側邊欄僅翻譯遊戲主分類及其子頁面標題；其它分類、子頁面標題與文件內文保留上游英文。沒有附上整套使用文件與指南的譯本。
 - 開發板像素畫面的文字直接沿用韌體內容，未經語言包替換，仍會顯示英文；本包翻譯其設定開關與說明。
 - 無線通訊測試的操作說明與開始提示已翻譯；`[radio test]` 結果由上游直接輸出，仍會顯示英文。
@@ -62,8 +62,8 @@
 
 ## 翻譯來源
 
-- 原始碼基準：[`Decryptu/pokeldn commit 36150233d58e0377460b12347122df8dd5ec333d`](https://github.com/Decryptu/pokeldn/tree/36150233d58e0377460b12347122df8dd5ec333d)。
-- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/36150233d58e0377460b12347122df8dd5ec333d/docs/plugins.md#language-packs-15)。
+- 原始碼基準：[`Decryptu/pokeldn commit 63701b81dbcc96fc23284e8d57ec2f2afdbb6c67`](https://github.com/Decryptu/pokeldn/tree/63701b81dbcc96fc23284e8d57ec2f2afdbb6c67)。
+- 格式依據：[Language packs](https://github.com/Decryptu/pokeldn/blob/63701b81dbcc96fc23284e8d57ec2f2afdbb6c67/docs/plugins.md#language-packs-15)。
 - 英文範本：`pokeldn/app/data/strings.en.toml`。
 - 「藍樂活」「點心大叔」等專有名詞參照[寶可夢官方繁體中文頁面](https://www.pokemon.co.jp/ex/sv_dlc/tc/features/231207_01/)。
 - 「奮鬥等級」參照 [Pokémon HOME 官方繁體中文頁面](https://www.pokemon.co.jp/ex/pokemonhome/tc/titles/legends_arceus/)。

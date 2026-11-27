@@ -1,15 +1,15 @@
 {
   "repository": "https://github.com/Decryptu/pokeldn",
-  "commit": "36150233d58e0377460b12347122df8dd5ec333d",
-  "pokeldn_version": "0.66.12",
+  "commit": "63701b81dbcc96fc23284e8d57ec2f2afdbb6c67",
+  "pokeldn_version": "0.68.0",
   "plugin_api": "1.13",
-  "checked_on": "2026-11-23",
-  "upstream_main_at_check": "501d3896e2e2381d50ad3ddf3c05e2978aca31f5",
+  "checked_on": "2026-11-27",
+  "upstream_main_at_check": "0830950d95e2a6b736c726499eacc1429b16c67b",
   "english_source_path": "pokeldn/app/data/strings.en.toml",
-  "english_git_blob_sha": "ddb7b91c6b20eea076f85ea4037f029bc480e569",
-  "english_sha256": "f62d961e5dbcc6c35cc7bbb3a251fb9ee8356cd05fd1bcf57ac631f5acd10079",
-  "chinese_sha256": "6bdee783b5db275e01d4c4b255f486eb813f758f4144167a72dd0c96d8254bde",
-  "package_version": "1.1.24",
-  "package_sha256": "24182c0dc2516c3d44fac7dddd7bc112e92f62f39ab2810acd18e022b6c812d3",
-  "main_strings": 1961
+  "english_git_blob_sha": "a5f2d1aaa6af6164cdf68d32e96e407aa6c80100",
+  "english_sha256": "618821d91c1f232779859676128b2eceebb944142a4392e9d48ccfc1f383659a",
+  "chinese_sha256": "d184048fe544c012268e9d76739833dc9f451cdf3f7c83cca02bcfdfa0ab6c29",
+  "package_version": "1.1.25",
+  "package_sha256": "8a23f8afbdddcccaf81f693b32783198283ba00d00805ded41ef577d11ba3f21",
+  "main_strings": 1969
 }

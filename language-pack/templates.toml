@@ -75,3 +75,14 @@
 
 "The write stopped ({error}); trying again." = "燒錄中斷（{error}）；正在重試。"
 "{device} is an ESP32-S2 in download mode." = "{device}：ESP32-S2 目前處於下載模式。"
+
+# pokeldn 0.67.0：交換時保留初訓家的提示
+"Offer {number} could not be made the receiving player's own: for {trainer}, {message_reason}. It goes with the original trainer it has." = "第 {number} 筆要交換的寶可夢無法將初訓家設為 {trainer}：{message_reason}。這隻寶可夢會保留原本的初訓家。"
+"Offer {number} could not be made the receiving player's own: {message_reason}. It goes with the original trainer it has." = "第 {number} 筆要交換的寶可夢無法將初訓家設為接收方：{message_reason}。這隻寶可夢會保留原本的初訓家。"
+"The Pokemon could not be made the receiving player's own: {message_reason}. It goes with the original trainer it has." = "無法將這隻寶可夢的初訓家設為接收方：{message_reason}。這隻寶可夢會保留原本的初訓家。"
+"neither the Pokemon the console offered nor the session names its save: {message_reason}" = "無法從主機提供的寶可夢或連線資料辨識存檔的訓練家。寶可夢無法用來辨識的原因：{message_reason}"
+"it came from another trainer, {trainer}" = "這隻寶可夢來自其他訓練家 {trainer}"
+
+# pokeldn 0.68.0：第三世代配信錯誤
+"PKHeX's GameCube gift table has no species {species}." = "PKHeX 的 GameCube 配信資料中找不到寶可夢種類 {species}。"
+"No Gen 3 event is named {event}." = "找不到名為「{event}」的第三世代配信。"
